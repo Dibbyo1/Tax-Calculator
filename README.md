@@ -1,12 +1,14 @@
-# Tax-Calculator
-A simple Python-based utility that calculates annual tax and post-tax income from a given salary input. Designed to help individuals estimate how much tax they will owe and how much take-home pay they'll receive after deductions.
+A Python-based desktop application that calculates estimated Canadian income taxes for a given annual salary. It includes federal tax, Ontario provincial tax, Canada Pension Plan (CPP), and Employment Insurance (EI) deductions. Designed to help individuals understand their estimated take-home pay based on current CRA tax laws.
 
-# Features
-Calculates annual tax based on predefined income brackets.</br>
-Outputs both the total tax amount and after-tax salary.</br>
-Implements clean and modular logic for ease of understanding and maintainability.</br>
-Easily extendable to accommodate different countries’ tax structures or progressive rates.
+## Features
+- Calculates **federal** tax based on 2025 CRA brackets.
+- Includes **Ontario provincial** tax rates.
+- Calculates mandatory **CPP** and **EI** contributions.
+- Supports users of **all ages**, including those under 18 with taxable income.
+- Identifies tax-free scenarios based on the **Basic Personal Amount (BPA)**.
+- GUI-based application using **Tkinter** (no web or CLI interface required).
+- Modular and easy to extend (e.g., adding other provinces).
 
-# Files
-a1.py – Core tax calculation script.</br>
-README.md – Project overview and usage guide
+## Files
+- `canada_tax_calculator.py` – Main Python GUI application script containing tax logic and interface.
+- `README.md` – Project overview and usage guide.
